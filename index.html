@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login</title>
+
+  <style>
+* {
+  box-sizing: border-box;
+}
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+
+    .heading {
+      color: #6C63FF;
+      text-align: center;
+    }
+
+    .form {
+      display: grid;
+      gap: 60px;
+      width: 410px;
+    }
+
+    .label {
+      width: 100%;
+      display: block;
+      color: #9D97FF;
+      font-weight: bold;
+    }
+
+    .input {
+      width: 100%;
+      /* border-color: #797979;
+      border-style: solid;  */
+      border: 5px solid #797979;
+      height: 60px;
+    }
+  </style>
+</head>
+
+<body>
+  <form class="form">
+    <h1 class="heading">Login</h1>
+
+    <div>
+      <label for="user-email" class="label">Email</label>
+      <input type="email" name="user-email" id="user-email" placeholder="Email" class="input">
+    </div>
+
+    <div>
+      <label for="password" class="label">Password*</label>
+      <input type="password" id="password" class="input">
+    </div>
+
+<button type="submit" class="button">Login</button>
+
+
+  </form>
+</body>
+</html>
